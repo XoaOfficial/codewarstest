@@ -9,7 +9,7 @@ def dec_to_base(num, base):
         else:
             base_num += chr(ord('A')+dig-10)
         num //= base
-    base_num = base_num[::-1]  # Inverts order?
+    base_num = base_num[::-1]
     return int(base_num)
 
 info = input()
